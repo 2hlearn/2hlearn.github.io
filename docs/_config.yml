@@ -5,7 +5,7 @@ markdown: kramdown
 
 # 사이트 URL 설정 (배포 후 실제 도메인 또는 깃허브 URL 사용)
 baseurl: "" # 루트 경로
-url: "https://your-username.github.io" # 실제 깃허브 사용자명으로 수정하세요
+url: "https://www.2hlearn.com" # 실제 깃허브 사용자명으로 수정하세요
 
 # 깃허브 Pages용 설정
 markdown: kramdown
