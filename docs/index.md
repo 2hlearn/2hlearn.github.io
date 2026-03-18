@@ -14,4 +14,4 @@ permalink: /
 👉 [교육 프로그램](programs.md)  
 👉 [강사진 소개](teams.md) 
 
-👉 [중장년 일자리 플랫폼 소프트워크(NEW!)](https://2hlearn.com/softwalk/)
+👉 [중장년 일자리 플랫폼 소프트워크(NEW!)](https://www.2hcube.com/softwalk/)
