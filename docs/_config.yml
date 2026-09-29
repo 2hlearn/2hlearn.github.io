@@ -8,9 +8,13 @@ baseurl: "" # 루트 경로
 url: "https://www.2hcube.com" # 실제 깃허브 사용자명으로 수정하세요
 
 # 깃허브 Pages용 설정
-markdown: kramdown
 kramdown:
   input: GFM
+
+# 플러그인 설정 (자동 sitemap.xml 생성 및 SEO 강화)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # 빌드 제외 목록 (옵션)
 exclude:
