@@ -5,13 +5,10 @@
   "summary": "검증 가능한 보상 중심 강화학습",
   "status": "published",
   "instructor": "하석재",
-  "referenceSchedule": "9/9–9/11",
   "availability": "reference",
-  "enrollmentUrl": "",
-  "thumbnail": "",
-  "thumbnailAlt": "",
-  "body": "## 과정 소개\n\n검증 가능한 보상 중심 강화학습\n\n제공받은 하반기 참고 커리큘럼입니다. 현재 개설·모집 여부와 인프런 등록 여부는 확인 전입니다.",
-  "audience": "",
-  "prerequisites": "",
-  "outcomes": []
+  "publicTopics": [
+    "Thinking·VLM 모델",
+    "검증 가능한 보상",
+    "강화학습"
+  ]
 }

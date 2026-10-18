@@ -5,13 +5,10 @@
   "summary": "추론 서비스의 연산과 커널 최적화",
   "status": "published",
   "instructor": "하석재",
-  "referenceSchedule": "8/11–8/13",
   "availability": "reference",
-  "enrollmentUrl": "",
-  "thumbnail": "",
-  "thumbnailAlt": "",
-  "body": "## 과정 소개\n\n추론 서비스의 연산과 커널 최적화\n\n제공받은 하반기 참고 커리큘럼입니다. 현재 개설·모집 여부와 인프런 등록 여부는 확인 전입니다.",
-  "audience": "",
-  "prerequisites": "",
-  "outcomes": []
+  "publicTopics": [
+    "OpenAI Triton",
+    "NVIDIA CUDA",
+    "커널 최적화"
+  ]
 }

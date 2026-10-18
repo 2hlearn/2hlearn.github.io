@@ -5,13 +5,9 @@
   "summary": "VLM 모델 학습과 실무 적용",
   "status": "published",
   "instructor": "하석재",
-  "referenceSchedule": "8/24–8/26",
   "availability": "reference",
-  "enrollmentUrl": "",
-  "thumbnail": "",
-  "thumbnailAlt": "",
-  "body": "## 과정 소개\n\nVLM 모델 학습과 실무 적용\n\n제공받은 하반기 참고 커리큘럼입니다. 현재 개설·모집 여부와 인프런 등록 여부는 확인 전입니다.",
-  "audience": "",
-  "prerequisites": "",
-  "outcomes": []
+  "publicTopics": [
+    "멀티모달·비전 모델",
+    "VLM 파인튜닝"
+  ]
 }

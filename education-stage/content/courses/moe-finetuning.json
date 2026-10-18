@@ -5,13 +5,10 @@
   "summary": "Unsloth 기반 Mixture of Experts 모델 학습",
   "status": "published",
   "instructor": "하석재",
-  "referenceSchedule": "8/18–8/20",
   "availability": "reference",
-  "enrollmentUrl": "",
-  "thumbnail": "",
-  "thumbnailAlt": "",
-  "body": "## 과정 소개\n\nUnsloth 기반 Mixture of Experts 모델 학습\n\n제공받은 하반기 참고 커리큘럼입니다. 현재 개설·모집 여부와 인프런 등록 여부는 확인 전입니다.",
-  "audience": "",
-  "prerequisites": "",
-  "outcomes": []
+  "publicTopics": [
+    "MoE 모델",
+    "Unsloth",
+    "파인튜닝"
+  ]
 }

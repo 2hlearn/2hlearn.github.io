@@ -1,0 +1,10 @@
+Pre-deployment review for the approved staging-only update. This record describes local checks; deployment success must be verified separately.
+Node v24.19.0; npm 12.2.0
+npm run build: 7 courses, 0 articles; CMS disabled; no analytics.
+npm test: 25 passed, 0 failed.
+HTTP: 17 local generated routes returned 200.
+Browser: desktop home, 390px mobile home/programs and detail navigation checked; no horizontal overflow.
+LLM concept illustration: 1536x1024 PNG, SHA256 460a2869f2fcf708c96b653c04e7354220f798c48d91b31a00ca5ac87c97c08a; home cover and preparing-course introduction checked.
+Original logo source/output SHA256: 04f81623c65f7e10e80921358e87d8dfffcb86bc150c6fbea6f2779e169e5b33
+Explicit text pair contrast: Navy/white 13.51648, ink/gold 9.29591, ink/coral 4.95284, muted/white 6.26927.
+Public live audit at ffaa71e: no original HWP/document/archives or detailed course content found in current tree and six deployed course pages. Prior remote history was not exhaustively audited or changed.

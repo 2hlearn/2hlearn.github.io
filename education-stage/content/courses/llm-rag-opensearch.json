@@ -5,13 +5,9 @@
   "summary": "검색과 생성형 AI를 연결하는 서비스 구축",
   "status": "published",
   "instructor": "하석재",
-  "referenceSchedule": "9/30–10/2",
   "availability": "reference",
-  "enrollmentUrl": "",
-  "thumbnail": "",
-  "thumbnailAlt": "",
-  "body": "## 과정 소개\n\n검색과 생성형 AI를 연결하는 서비스 구축\n\n제공받은 하반기 참고 커리큘럼입니다. 현재 개설·모집 여부와 인프런 등록 여부는 확인 전입니다.",
-  "audience": "",
-  "prerequisites": "",
-  "outcomes": []
+  "publicTopics": [
+    "검색과 생성형 AI",
+    "OpenSearch 기반 RAG"
+  ]
 }

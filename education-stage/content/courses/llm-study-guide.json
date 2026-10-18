@@ -1,0 +1,9 @@
+{
+  "slug": "llm-study-guide",
+  "title": "LLM 공부의 정석",
+  "summary": "LLM은 어떻게 동작하는가",
+  "status": "published",
+  "availability": "preparing",
+  "thumbnail": "/assets/courses/llm-study-guide-illustration-v1.png",
+  "thumbnailAlt": "토큰이 연결된 처리 층을 통과하고 돋보기로 내부를 살펴보는 LLM 개념 일러스트"
+}
