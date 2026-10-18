@@ -1,0 +1,28 @@
+
+> bakkat-education-staging@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ exclude drafts (1.085964ms)
+✔ reject duplicate and traversal slugs (0.262318ms)
+✔ cover + featured are unique; remaining is exact (1.379928ms)
+✔ featured at most 3 and no duplicate cover (0.209149ms)
+✔ missing/draft references fail closed (0.154068ms)
+✔ homepage may reference either collection (0.173346ms)
+✔ reject hostile external links (0.224732ms)
+✔ stage output excludes draft, analytics and live CMS (8.255061ms)
+✔ all relative internal hrefs resolve to generated pages (14.560693ms)
+✔ strict reference type and published state (0.701255ms)
+✔ thumbnail policy rejects remote, encoded traversal, SVG and query tricks (0.496163ms)
+✔ thumbnail requires meaningful alt text (0.284631ms)
+✔ site category and reference schema rejects invalid input (2.01085ms)
+✔ CMS retains exactly two content folders plus file curation (0.969662ms)
+✔ bakkat selection modules preserved byte-for-byte (1.4493ms)
+✔ asset inventory hashes allowed images and rejects disguised executable files (5.272387ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 125.320333

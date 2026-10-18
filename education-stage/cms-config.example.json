@@ -1,0 +1,356 @@
+{
+  "backend": {
+    "name": "test-repo"
+  },
+  "locale": "ko",
+  "media_folder": "assets",
+  "public_folder": "/assets",
+  "collections": [
+    {
+      "name": "courses",
+      "label": "강의소개",
+      "folder": "content/courses",
+      "create": true,
+      "delete": false,
+      "extension": "json",
+      "format": "json",
+      "slug": "{{slug}}",
+      "identifier_field": "title",
+      "fields": [
+        {
+          "name": "slug",
+          "label": "고정 URL slug",
+          "widget": "string",
+          "pattern": [
+            "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "영문 소문자·숫자·하이픈"
+          ]
+        },
+        {
+          "name": "title",
+          "label": "제목",
+          "widget": "string"
+        },
+        {
+          "name": "summary",
+          "label": "요약",
+          "widget": "text"
+        },
+        {
+          "name": "status",
+          "label": "공개 상태",
+          "widget": "select",
+          "options": [
+            "draft",
+            "published"
+          ],
+          "default": "draft"
+        },
+        {
+          "name": "thumbnail",
+          "label": "대표 이미지",
+          "widget": "image",
+          "required": false,
+          "choose_url": false,
+          "hint": "assets 안의 PNG/JPEG/WebP/AVIF. 영문·숫자·하이픈·밑줄 파일명. SVG/외부 URL 제외."
+        },
+        {
+          "name": "thumbnailAlt",
+          "label": "이미지 대체 텍스트",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "body",
+          "label": "본문",
+          "widget": "markdown"
+        },
+        {
+          "name": "category",
+          "label": "강의 분류",
+          "widget": "select",
+          "options": [
+            {
+              "label": "LLM 서비스·추론 최적화",
+              "value": "service"
+            },
+            {
+              "label": "모델 학습·고도화",
+              "value": "model"
+            }
+          ]
+        },
+        {
+          "name": "instructor",
+          "label": "강사",
+          "widget": "string"
+        },
+        {
+          "name": "audience",
+          "label": "학습 대상",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "prerequisites",
+          "label": "선수 지식",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "outcomes",
+          "label": "학습 결과",
+          "widget": "list",
+          "required": false
+        },
+        {
+          "name": "referenceSchedule",
+          "label": "참고 일정",
+          "widget": "string",
+          "required": false,
+          "hint": "회차 개설·모집 상태와 구분"
+        },
+        {
+          "name": "availability",
+          "label": "개설 상태",
+          "widget": "select",
+          "options": [
+            "reference"
+          ],
+          "default": "reference"
+        },
+        {
+          "name": "enrollmentUrl",
+          "label": "검증된 외부 수강 URL",
+          "widget": "string",
+          "required": false,
+          "pattern": [
+            "^https://",
+            "HTTPS URL"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "articles",
+      "label": "아티클",
+      "folder": "content/articles",
+      "create": true,
+      "delete": false,
+      "extension": "json",
+      "format": "json",
+      "slug": "{{slug}}",
+      "identifier_field": "title",
+      "fields": [
+        {
+          "name": "slug",
+          "label": "고정 URL slug",
+          "widget": "string",
+          "pattern": [
+            "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "영문 소문자·숫자·하이픈"
+          ]
+        },
+        {
+          "name": "title",
+          "label": "제목",
+          "widget": "string"
+        },
+        {
+          "name": "summary",
+          "label": "요약",
+          "widget": "text"
+        },
+        {
+          "name": "status",
+          "label": "공개 상태",
+          "widget": "select",
+          "options": [
+            "draft",
+            "published"
+          ],
+          "default": "draft"
+        },
+        {
+          "name": "thumbnail",
+          "label": "대표 이미지",
+          "widget": "image",
+          "required": false,
+          "choose_url": false,
+          "hint": "assets 안의 PNG/JPEG/WebP/AVIF. 영문·숫자·하이픈·밑줄 파일명. SVG/외부 URL 제외."
+        },
+        {
+          "name": "thumbnailAlt",
+          "label": "이미지 대체 텍스트",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "body",
+          "label": "본문",
+          "widget": "markdown"
+        },
+        {
+          "name": "category",
+          "label": "글 분류",
+          "widget": "select",
+          "options": [
+            "company",
+            "trend",
+            "clip",
+            "opinion"
+          ]
+        },
+        {
+          "name": "brands",
+          "label": "브랜드",
+          "widget": "select",
+          "options": [
+            "2hcube",
+            "softwalk"
+          ],
+          "multiple": true
+        },
+        {
+          "name": "sourceUrl",
+          "label": "원문 URL",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "sourceName",
+          "label": "출처명",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "sourceAuthor",
+          "label": "원저자",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "sourcePublishedOn",
+          "label": "원문 발행일",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "quotation",
+          "label": "짧은 인용",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "commentary",
+          "label": "직접 작성한 해석",
+          "widget": "text",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "site",
+      "label": "사이트 편성 설정",
+      "files": [
+        {
+          "name": "curation",
+          "label": "홈·프로그램 편성",
+          "file": "content/site.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "name",
+              "label": "사이트명",
+              "widget": "string"
+            },
+            {
+              "name": "tagline",
+              "label": "소개 문구",
+              "widget": "string"
+            },
+            {
+              "name": "inflearnProfile",
+              "label": "인프런 프로필 URL",
+              "widget": "string"
+            },
+            {
+              "name": "companySummary",
+              "label": "회사 짧은 소개",
+              "widget": "text"
+            },
+            {
+              "name": "leadSummary",
+              "label": "대표 강사 짧은 소개",
+              "widget": "text"
+            },
+            {
+              "name": "homeCover",
+              "label": "홈 커버",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "collection",
+                  "label": "콘텐츠 종류",
+                  "widget": "select",
+                  "options": [
+                    "courses",
+                    "articles"
+                  ]
+                },
+                {
+                  "name": "slug",
+                  "label": "공개 콘텐츠 slug",
+                  "widget": "string",
+                  "hint": "선택 종류 안의 공개 글 slug. 없는 글·초안은 빌드가 거부합니다.",
+                  "pattern": [
+                    "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "유효한 slug"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "programCover",
+              "label": "프로그램 커버",
+              "widget": "relation",
+              "collection": "courses",
+              "search_fields": [
+                "title",
+                "slug"
+              ],
+              "value_field": "slug",
+              "display_fields": [
+                "title"
+              ],
+              "multiple": false,
+              "required": true
+            },
+            {
+              "name": "featured",
+              "label": "Featured · 최대 3개",
+              "widget": "relation",
+              "collection": "courses",
+              "search_fields": [
+                "title",
+                "slug"
+              ],
+              "value_field": "slug",
+              "display_fields": [
+                "title"
+              ],
+              "multiple": true,
+              "required": false,
+              "max": 3
+            },
+            {
+              "name": "categories",
+              "label": "강의 분류",
+              "widget": "hidden"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

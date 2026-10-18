@@ -1,0 +1,7 @@
+Mac validation: Node v24.19.0; npm 12.2.0
+Dependency install: npm ci --ignore-scripts --no-audit --no-fund
+Build: npm run build; 6 courses, 0 articles; CMS disabled; no analytics
+Tests: 17 passed, 0 failed
+Three vendored modules verified against GitHub connector pinned upstream bytes. Package-only extra trailing newlines normalized to exact upstream.
+Footer current year and About 2015 founding history verified.
+No existing repository files changed; stage is under education-stage/.

@@ -1,0 +1,17 @@
+{
+  "slug": "llm-inference",
+  "title": "LLM 추론 아키텍처와 LLM 서비스 구축",
+  "category": "service",
+  "summary": "vLLM · SGLang · TensorRT",
+  "status": "published",
+  "instructor": "하석재",
+  "referenceSchedule": "7/8–7/10",
+  "availability": "reference",
+  "enrollmentUrl": "",
+  "thumbnail": "",
+  "thumbnailAlt": "",
+  "body": "## 과정 소개\n\nvLLM · SGLang · TensorRT\n\n제공받은 하반기 참고 커리큘럼입니다. 현재 개설·모집 여부와 인프런 등록 여부는 확인 전입니다.",
+  "audience": "",
+  "prerequisites": "",
+  "outcomes": []
+}

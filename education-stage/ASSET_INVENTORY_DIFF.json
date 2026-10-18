@@ -1,0 +1,33 @@
+{
+  "sourceCommit": "ed691c2ea97c18ba88b9faf2511a9c497d22cace",
+  "treeTruncated": false,
+  "sourceFileCount": 14,
+  "repositoryAssetInventory": [],
+  "retainedReferencePages": [
+    "docs/about.md",
+    "docs/teams.md",
+    "docs/contact.md"
+  ],
+  "replacedRendering": [
+    "docs/index.md",
+    "docs/programs.md",
+    "docs/_layouts/default.html"
+  ],
+  "notCarriedToStaging": [
+    "docs/CNAME",
+    "docs/_config.yml",
+    "docs/_includes/head-custom.html",
+    "docs/robots.txt",
+    "index.html"
+  ],
+  "assetDiff": {
+    "repositoryAssets": 0,
+    "missingCopiedRepositoryAssets": []
+  },
+  "cutoverBlocked": true,
+  "limitations": [
+    "Pinned repository tree contains no image/CSS/JS binaries. This does not prove production has none: Jekyll remote theme generates assets.",
+    "Softwalk deployment is absent from this repository tree; complete live-route/asset inventory remains required before DNS cutover.",
+    "Remote themes, generated production assets and externally hosted images require live-site crawl; not claimed migrated."
+  ]
+}

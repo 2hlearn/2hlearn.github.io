@@ -1,0 +1,27 @@
+{
+  "name": "투에이치큐브",
+  "tagline": "인공지능 교육과 소프트웨어의 다음 가능성",
+  "inflearnProfile": "https://www.inflearn.com/users/1695432/@2hcube",
+  "companySummary": "투에이치큐브는 인공지능과 소프트웨어 교육을 제공합니다. 현장의 기술을 이해하고 적용하는 실전형 교육을 지향합니다.",
+  "leadSummary": "하석재 대표 · AI·LLM·클라우드 교육. 서울대학교 컴퓨터공학 학사·석사, 박사과정 수료.",
+  "homeCover": {
+    "collection": "courses",
+    "slug": "llm-rag-opensearch"
+  },
+  "programCover": "llm-rag-opensearch",
+  "featured": [
+    "llm-inference",
+    "moe-finetuning",
+    "rlvr"
+  ],
+  "categories": [
+    {
+      "id": "service",
+      "label": "LLM 서비스·추론 최적화"
+    },
+    {
+      "id": "model",
+      "label": "모델 학습·고도화"
+    }
+  ]
+}

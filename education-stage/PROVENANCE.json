@@ -1,0 +1,27 @@
+{
+  "generated": "2026-10-18",
+  "sources": {
+    "2hlearn/2hlearn.github.io": "ed691c2ea97c18ba88b9faf2511a9c497d22cace",
+    "boscofile/bakkat": "74bb5e5a02cd834e65a503df1b5b2f5d3468e7c4"
+  },
+  "reusedPatterns": [
+    "explicit publication state",
+    "single-source cover and featured references",
+    "duplicate exclusion",
+    "stable content slugs",
+    "static build separated from CMS backend"
+  ],
+  "implementation": "Education adapter proof of build, not a full port of bakkat custom media/OAuth widgets.",
+  "schedule": "User supplied month/day only; no year or enrollment status inferred.",
+  "legacy": "Reference Markdown retained verbatim; rendered pages preserve public content except local .md links normalized. Existing Softwalk remains on GitHub Pages.",
+  "directReuse": {
+    "upstream": "boscofile/bakkat@74bb5e5a02cd834e65a503df1b5b2f5d3468e7c4",
+    "unchangedModules": [
+      "scripts/home-selections.mjs",
+      "src/admin/home-curation.js",
+      "src/admin/post-id.js"
+    ],
+    "localPrefix": "vendor/bakkat/",
+    "integration": "src/model.mjs select() calls upstream selectHomeStories(); education layer applies narrower ASCII slug policy."
+  }
+}
